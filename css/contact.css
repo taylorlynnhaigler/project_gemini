@@ -1,0 +1,73 @@
+ body {
+	width: 90%;
+
+
+}
+ header {
+	width: 100%;
+background-color: navy;
+}
+ h1{
+ 	font-size: 40px;
+	color: white;
+	margin-bottom: 40px;
+	text-align: center;
+}
+ h2{
+	color: navy;
+	font-family: 
+}
+
+ #logos{ 
+   width: 20%;
+   height: 200%;
+   margin-top: -65px;
+   margin-left: 65px;
+   float: left;
+background-color: white;
+}
+ ul {
+	float: right;
+	font-size: 18px; 
+	 margin-top: -20px;
+
+}
+ ul li{
+	color: navy;
+	display: inline-block;
+	margin: 5px;
+}
+
+ form{
+        width: 800px;
+        padding: 20px;
+    }
+  fieldset{
+	width: 100%;
+	padding: 40px 10px;
+	margin-left: 65px;
+
+    }
+    
+  textarea {
+    width: 90%;
+    height: 150px;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+     }
+     input[type=submit] {
+    background-color: #0505FF;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 6px 3px;
+	    cursor: pointer;
+	}
+.name{
+	width: 70%;
+}
