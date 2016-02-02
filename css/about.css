@@ -1,0 +1,29 @@
+body{
+	width: 90%;
+	background-image: url("light_years.jpg");
+	margin: 0 auto;
+}
+header {
+	width: 100%;
+background-color: navy;
+}
+ h1{
+ 	font-size: 40px;
+	color: white;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.landing-page-text h2:after {
+    left: 0;
+    margin-left: 0;
+}
+.landing-page-text h2:after, .content-page h2:after {
+    content: '';
+    background: #3aaee7;
+    bottom: -2.5rem;
+    height: 0.0625rem;
+    left: 50%;
+    margin-left: -6.25rem;
+    position: absolute;
+    width: 12.5rem;
+}
