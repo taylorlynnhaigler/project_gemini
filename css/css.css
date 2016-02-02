@@ -1,0 +1,141 @@
+/* Taylor's CSS */
+
+body{
+	width: 90%;
+	margin: 0 auto;
+	font-family: Monospace, "Courier New", serif;
+}
+header{
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px;
+	background-color: white;
+	border-radius: 20px;
+}
+header img{
+	width: 500px;
+	height: 200px;
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+nav{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #49fb35;
+	margin: 25px;
+	font-size: 1.5em;
+}
+nav ul li a:hover{
+	color: black;
+}
+nav ul li a:active{
+	color:FF8300;
+}
+section {
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px;
+	background-color: white;
+	text-align: center;
+	border-radius: 20px;
+}
+.italics {
+	font-style: italic;
+}
+footer{
+	background-color: white;
+	border-radius: 20px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px;
+	color:#49fb35;
+}
+blockquote{
+	margin-top:30px;
+}
+.photo{
+	height: 300px;
+	width: 400px;
+}
+.beyonce{
+	overflow: hidden;
+}
+.beyonce_jayz_photo{
+	height: 250px;
+	width: 300px;
+	margin: 20px;
+	padding: 20px;
+	float: left;
+}
+.beyonce_quote {
+	width: 400px;
+	float: left;
+	margin: 40px;
+	padding: 20px;
+}
+.bieber {
+	overflow: hidden;
+}
+.bieber_quote {
+	width: 400px;
+	margin: 40px;
+	padding: 20px;
+	float: left;
+}
+.bieber_photo{
+	width: 300px;
+	height: 250px;
+	margin: 20px;
+	padding: 20px;
+	float: left;
+}
+@media only screen and (max-width: 1120px){
+	body {
+		width:100%;
+	}
+	header{
+		width: 90%;
+	}
+	nav {
+		width: 100%;
+	}
+	nav ul li {
+		display: block;
+	}
+}
+@media only screen and (max-width: 540px){
+	header img{
+		width: 100%;
+	}
+	.beyonce_jayZ_photo{
+		float:none;
+	}
+	.beyonce_quote{
+		float:none;
+		margin: 0;
+		padding: 5px;
+		width: 100%;
+	}
+	.bieber_quote{
+		float: none;
+		margin: 0;
+		padding: 5px;
+		width: 100%;
+	}
+	.bieber_photo{
+		float: none;
+	}
+}
