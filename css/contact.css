@@ -1,17 +1,20 @@
  body {
 	width: 90%;
-
+    margin-left: 65px;
 
 }
  header {
-	width: 100%;
-background-color: navy;
+  width: 100%;
+  margin-bottom: 10px;
+   height: 107px;
+  background-color: white;
+      border-radius: 20px;
+
 }
  h1{
  	font-size: 40px;
-	color: white;
+	color: navy;
 	margin-bottom: 40px;
-	text-align: center;
 }
  h2{
 	color: navy;
@@ -19,23 +22,26 @@ background-color: navy;
 }
 
  #logos{ 
-   width: 20%;
-   height: 200%;
-   margin-top: -65px;
+    width: 150px;
    margin-left: 65px;
    float: left;
-background-color: white;
 }
  ul {
 	float: right;
 	font-size: 18px; 
-	 margin-top: -20px;
+  margin-right: 20px;
+  margin-top: -20px;
 
 }
  ul li{
 	color: navy;
 	display: inline-block;
 	margin: 5px;
+}
+section {
+  background-color: white;
+  padding: 100px;
+  border-radius: 20px;
 }
 
  form{
@@ -45,7 +51,6 @@ background-color: white;
   fieldset{
 	width: 100%;
 	padding: 40px 10px;
-	margin-left: 65px;
 
     }
     
@@ -70,4 +75,13 @@ background-color: white;
 	}
 .name{
 	width: 70%;
+}
+footer{
+    width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  color:#49fb35;
+  text-align: center;
 }
