@@ -1,4 +1,4 @@
 # Gemini
 
-A project for my NYCDA FrontEnd 101 course
-Group project where we each designed a site page by building off the same design with git
+A group project for my NYCDA FrontEnd 101 course. We used git to each build a page off of the base site design.
+I designed the testimonials page. 
